@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9136D48-EE8C-F1E0-9119-3A9FE1E0407B" containerWithKeyObject="08070EBC-0458-0978-63FE-A7E34C0582FB" localFKIndex="1B74D6B2-C659-02F8-28B2-5E31DC4D7F40" name="Creador_de_Contenido_Tipos_de_Creadores_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>FD22EF24-F122-6F24-29D7-EFF72A8DFB7F</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<referredTableLongName>Tipos_de_Creadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A041F540-5B17-37B4-5904-9A1DCA176DE2</referredTableID>
+<keyObject>65A3AAFE-33A4-CC13-BEF9-0F0AD1BA233A</keyObject>
+<referredKeyID>65A3AAFE-33A4-CC13-BEF9-0F0AD1BA233A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

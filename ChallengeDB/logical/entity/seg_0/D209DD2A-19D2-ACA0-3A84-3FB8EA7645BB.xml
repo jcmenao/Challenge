@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D209DD2A-19D2-ACA0-3A84-3FB8EA7645BB" name="Promocion">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:00:47 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="49269DEA-97B1-F286-1A6C-72D13B1F7379">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:00:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unido de promoción]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="FF0E6287-F1BF-2545-22AB-AF9280604603">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:01:31 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion " id="7AC410B4-E695-8B4A-BCFE-DA744230FD39">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:01:48 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>Max</dataTypeSize>
+<ownDataTypeParameters>Max,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo de Descuento" id="309B434E-FFE7-4E5E-76FD-654A4A7688AE">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:02:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de promocion:
+1.- Descuento del total
+2.- Porcentaje
+3.- etc.]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto Descuento" id="0504CFA8-069E-C9D9-6ADD-141B3D70CE2D">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:03:23 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo Descuento" id="8BB19296-7C9B-54C3-7C4A-4D00AB1FDA57">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:04:01 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A979F111-3F75-9AF5-36DC-9C5437776AA2">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:16:42 UTC</createdTime>
+<generatorID>48490717-3F8A-EAE7-019B-3A5C94D304B1</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>A89C6C6B-FF76-F321-4010-CDEA9B9FA773</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="895A3D74-8995-19F2-B9D5-589EC52C50E1" name="Promocion PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:01:00 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49269DEA-97B1-F286-1A6C-72D13B1F7379</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

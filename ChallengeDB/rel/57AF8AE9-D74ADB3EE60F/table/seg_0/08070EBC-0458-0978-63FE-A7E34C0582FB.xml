@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08070EBC-0458-0978-63FE-A7E34C0582FB" name="Creador_de_Contenido">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>F86A3745-2F6E-284D-903D-7E020C76B361</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="860E8540-BA8D-71ED-0E03-70E2DFF08D89">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de creador de contenido]]></commentInRDBMS>
+<generatorID>DEB5207C-6309-C55B-4748-92F64F7D1BBB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="9B658C7B-C13F-D7AA-3C2A-497DFB66FEB7">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del Creador de contenido]]></commentInRDBMS>
+<generatorID>38192D01-6030-2E61-7F3A-35269A520DB4</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Alta" id="E0A8F323-24C6-B341-B2D5-CF5EEB0A19F4">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en que se dio de alta el creador de contenido]]></commentInRDBMS>
+<generatorID>095FB437-4475-FAE0-C29F-2B986205601E</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Actualizacion" id="D99C67A4-707D-20ED-BC6B-664FB37AD0F0">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>04B635E0-97BF-768F-0AEB-7E036289FAF1</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_ID" id="BA5F20BF-5028-C346-DFCC-A5BB8AEE62DF">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>754F4DC4-3C5D-817E-BD94-EEBBFF9B7DF7</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFE50766-65A4-FB45-DAB6-0B5E6314F8DA" referredColumn="67B95AAA-F9FB-5607-3D4F-EAD536D1959C"/>
+</associations>
+</Column>
+<Column name="Tipos_de_Creadores_ID" id="D0189F88-B4F7-6E65-9AE9-04CB80535A41">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>5E1F571A-8996-ACC3-B567-E0B4DFF7EE7D</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9136D48-EE8C-F1E0-9119-3A9FE1E0407B" referredColumn="503601CA-726C-597F-5D87-9E38BB8607F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E05824C-9993-217C-F975-AFCD3EAC2B3E" name="Creador_de_Contenido_PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>6C05D1E7-E22B-57C7-797D-432C0D363E8C</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="860E8540-BA8D-71ED-0E03-70E2DFF08D89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91742BD9-74BC-A1DE-23AD-A523A78DF1DE" name="Creador_de_Contenido_Empleados_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>5B34193D-1687-78F4-559C-0E81DCDE07CB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA5F20BF-5028-C346-DFCC-A5BB8AEE62DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B74D6B2-C659-02F8-28B2-5E31DC4D7F40" name="Creador_de_Contenido_Tipos_de_Creadores_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>FD22EF24-F122-6F24-29D7-EFF72A8DFB7F</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0189F88-B4F7-6E65-9AE9-04CB80535A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

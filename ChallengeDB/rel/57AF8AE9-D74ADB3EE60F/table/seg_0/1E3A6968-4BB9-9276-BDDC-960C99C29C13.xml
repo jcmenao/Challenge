@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E3A6968-4BB9-9276-BDDC-960C99C29C13" name="Promocion">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>D209DD2A-19D2-ACA0-3A84-3FB8EA7645BB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="835899CC-BA8A-FAA8-945B-562C993F1785">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unido de promoción]]></commentInRDBMS>
+<generatorID>49269DEA-97B1-F286-1A6C-72D13B1F7379</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="821FD1E6-70DB-87F1-F6DC-F194CEF4897D">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>FF0E6287-F1BF-2545-22AB-AF9280604603</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="A5969006-1B73-9CB0-6EFB-772A331E1BB1">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>7AC410B4-E695-8B4A-BCFE-DA744230FD39</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>Max</dataTypeSize>
+<ownDataTypeParameters>Max,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_de_Descuento" id="52E3F1EA-F8F0-B50A-EA5F-49C388EA489D">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de promocion:
+1.- Descuento del total
+2.- Porcentaje
+3.- etc.]]></commentInRDBMS>
+<generatorID>309B434E-FFE7-4E5E-76FD-654A4A7688AE</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monto_Descuento" id="3EED317A-F7F3-894F-6C45-A30A0FCAF946">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>0504CFA8-069E-C9D9-6ADD-141B3D70CE2D</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_Descuento" id="4C9EAEB4-D00F-6852-D75F-1AA501A48B1B">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>8BB19296-7C9B-54C3-7C4A-4D00AB1FDA57</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_ID" id="AF090663-ADC1-F000-835D-C36137D028EC">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>A979F111-3F75-9AF5-36DC-9C5437776AA2</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A00F6934-0A36-B873-5C50-FA9D05657AF1" referredColumn="67B95AAA-F9FB-5607-3D4F-EAD536D1959C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF910121-F776-0C53-A23E-040AA41F506A" name="Promocion_PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>895A3D74-8995-19F2-B9D5-589EC52C50E1</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="835899CC-BA8A-FAA8-945B-562C993F1785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5B07123-F2F0-9410-C8FC-C9D746B0712B" name="Promocion_Empleados_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>48490717-3F8A-EAE7-019B-3A5C94D304B1</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF090663-ADC1-F000-835D-C36137D028EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

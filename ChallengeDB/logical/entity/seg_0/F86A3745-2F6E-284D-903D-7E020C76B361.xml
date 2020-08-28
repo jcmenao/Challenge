@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F86A3745-2F6E-284D-903D-7E020C76B361" name="Creador de Contenido">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 00:36:38 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="DEB5207C-6309-C55B-4748-92F64F7D1BBB">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 00:36:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de creador de contenido]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="38192D01-6030-2E61-7F3A-35269A520DB4">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 00:50:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del Creador de contenido]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Alta" id="095FB437-4475-FAE0-C29F-2B986205601E">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 00:51:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en que se dio de alta el creador de contenido]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Actualizacion" id="04B635E0-97BF-768F-0AEB-7E036289FAF1">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 00:52:09 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="754F4DC4-3C5D-817E-BD94-EEBBFF9B7DF7">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:00:17 UTC</createdTime>
+<generatorID>5B34193D-1687-78F4-559C-0E81DCDE07CB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>A89C6C6B-FF76-F321-4010-CDEA9B9FA773</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="5E1F571A-8996-ACC3-B567-E0B4DFF7EE7D">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:12:56 UTC</createdTime>
+<generatorID>FD22EF24-F122-6F24-29D7-EFF72A8DFB7F</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>CA16A4F2-8C76-0602-DD36-F860340A14F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C05D1E7-E22B-57C7-797D-432C0D363E8C" name="Creador de Contenido PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:12:48 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEB5207C-6309-C55B-4748-92F64F7D1BBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="112445CF-3D82-9409-4F0C-40554D99D171" name="Subscripcion por Usuario">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-27 04:42:01 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E7B53692-AB40-39FD-918C-F15D417791EB">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 01:59:10 UTC</createdTime>
+<generatorID>865F93F1-56C9-406C-F75C-D2D79806C242</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>D02D743F-BDFD-A4A8-7D05-5EA643DD9795</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="674CDF67-F55F-A791-FBFF-96A37342BABE">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 01:59:19 UTC</createdTime>
+<generatorID>FF283558-7BE0-E083-0D5F-EAF8918930FD</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>E238B903-4DB1-5100-B041-67CD3D776F05</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total de Subscripcion" id="DB0E186A-D6E4-44F5-BA15-C4725B951215">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:06:36 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Inicio" id="DF26D869-5DA8-F61F-4277-5797EC98247B">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:07:10 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Termino" id="0C15D07C-3C58-9427-20F1-97E957153E8A">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:08:17 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha de Alta" id="98279135-3674-52EA-6E95-6627995E1454">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:10:33 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estatus" id="E84C6AEF-F63C-3C4C-B9CB-6AB0F41D308F">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:10:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus de la subscripcion]]></commentInRDBMS>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="DDBC4520-2D24-2260-C78F-597367C15951">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:12:32 UTC</createdTime>
+<generatorID>864E861F-C760-B59C-59E0-482881C72BB8</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<referedAttribute>49269DEA-97B1-F286-1A6C-72D13B1F7379</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13CB7B2A-1682-7FD8-446C-D095F10192FB" name="Subscripcion por Usuario PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:12:32 UTC</createdTime>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<engineerTo>
+<item key="57AF8AE9-2FDD-D313-A024-D74ADB3EE60F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDBC4520-2D24-2260-C78F-597367C15951</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

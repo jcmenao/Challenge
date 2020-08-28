@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C76C38D4-DF89-6F29-A3A4-ECA49F464C5B" name="Grupo_Videos_Usuario">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>7342E882-31AE-7F14-94E0-88C6CD039D99</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="01ACF657-7EAE-93CC-9BD9-48B7D1EA774A">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de Grupo de Videos]]></commentInRDBMS>
+<generatorID>91EC7DDB-8ACF-FE52-7479-6C17ED25D26C</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_de_Grupo" id="3E253306-71BE-9BCF-F543-54A527C4FC51">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del grupo de videos]]></commentInRDBMS>
+<generatorID>32837BE3-F5C6-6B52-D535-CE732A2D4BA5</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_del_Grupo" id="EE9B7B4D-7ECB-3B08-9E6D-49653AC78CA3">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del Grupo]]></commentInRDBMS>
+<generatorID>67F00E27-BA77-3E4D-4B8A-848C4A13AFE1</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>Max</dataTypeSize>
+<ownDataTypeParameters>Max,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Creacion" id="C1C073DA-4B15-5826-FF94-4A971BB56FF0">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha y Hora de Creacion del video]]></commentInRDBMS>
+<generatorID>FBA154E9-B99E-6E3F-CBA3-F481FA69ED48</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Actualizacion_del_Grupo" id="AEC8BDA6-9988-632F-3CFB-DB09ABF1BA69">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha y Hora en que se actualizo el grupo]]></commentInRDBMS>
+<generatorID>AEB7F2FD-B237-84EF-C5AF-1B04B4758BA3</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Creador_de_Contenido_ID" id="20285E98-56C8-4A44-8D0C-0221B135DE54">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>EC5CF551-850D-E84E-3E46-795A5B7B4AB4</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1073DFA-2F81-7B81-9206-3E67A7CA4BAA" referredColumn="860E8540-BA8D-71ED-0E03-70E2DFF08D89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A685826-0D02-DDBC-60F3-974D2B6F60F0" name="Grupo_Videos_Usuario_PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>56330565-8888-2B01-F66F-D6857FB1F850</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01ACF657-7EAE-93CC-9BD9-48B7D1EA774A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD958265-A8E8-2265-9175-A4F758A7651D" name="Grupo_Videos_Usuario_Creador_de_Contenido_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>B4985827-FD18-1663-F24B-C353EEB4CFAA</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20285E98-56C8-4A44-8D0C-0221B135DE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

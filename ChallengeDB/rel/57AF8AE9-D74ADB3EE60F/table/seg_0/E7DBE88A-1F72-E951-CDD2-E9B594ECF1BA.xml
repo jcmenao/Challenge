@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7DBE88A-1F72-E951-CDD2-E9B594ECF1BA" name="Usuarios">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>2FB0BFFF-C75C-AFAC-8351-E459A0B62BB7</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1E8649D2-6EAF-6C65-924A-EF17CE808337">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador unico de usuario, valor auto incremental]]></commentInRDBMS>
+<generatorID>E238B903-4DB1-5100-B041-67CD3D776F05</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="D6AF81EC-FED7-2465-1E7E-7E6EA746B58A">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de Usuario, nombre de Pila.]]></commentInRDBMS>
+<generatorID>2322A24B-6B42-601C-38EA-F9DB5B975D7A</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo_Electronico" id="51F689EC-EEF9-9DEA-071B-F60C337C37AB">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Correo Electronico de Usuario]]></commentInRDBMS>
+<generatorID>ACA66684-74E7-24C6-D162-F6F3B7BFFA5C</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicio_de_Autenticacion" id="6A5C5374-8D25-92D6-D5C0-D571358C174D">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Catalago de Servicio que usa el usuario para ingresar a la plataformo:
+
+1.- Propio
+2.- Google 
+3.- Facebook
+4.- Ninguno
+5.- Otro]]></commentInRDBMS>
+<generatorID>2066D218-2077-A1FD-E4F7-7E6EC60447D6</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seudonimo" id="ED377332-A091-3CC9-70F9-F7CD1FD2D021">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre que utiliza el usuario para darse a conocer dentro de la plataforma]]></commentInRDBMS>
+<generatorID>86979C98-D8F8-88D3-1894-4321977FD92D</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Alta" id="06DB7E0F-B5BD-DB4C-ED94-48DA5F63323F">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esto nos dira cuando el usuario se dio de alta con respecto a UTC]]></commentInRDBMS>
+<generatorID>7D830E68-0B3D-9A34-527B-A28164A875ED</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estatus" id="5AF910D7-CA15-F676-651C-7E77E57BEFF1">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus del Usuario:
+Por definir
+Ex:
+Activo
+Inactivo
+etc.]]></commentInRDBMS>
+<generatorID>495C6447-9F20-954A-A910-A2FF8F3DE04A</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Actualización" id="8AFF7377-9098-CE98-BFC4-F72583EE6762">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en que el usuario actualizo sus datos]]></commentInRDBMS>
+<generatorID>997EAA57-FA63-9CAD-6210-F6C12E1D13CC</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88174466-4237-5C73-E978-24DCB828F0E6" name="Usuarios_PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>685EAE70-7EAF-DA36-D017-7FE0DE719EED</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8649D2-6EAF-6C65-924A-EF17CE808337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

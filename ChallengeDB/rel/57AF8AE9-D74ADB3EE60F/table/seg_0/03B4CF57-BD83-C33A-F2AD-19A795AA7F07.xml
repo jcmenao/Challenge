@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03B4CF57-BD83-C33A-F2AD-19A795AA7F07" name="Subscripcion_por_Usuario">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>112445CF-3D82-9409-4F0C-40554D99D171</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Subscripciones_ID" id="E796351F-A1E2-6E57-BE44-EBD33E72B761">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>E7B53692-AB40-39FD-918C-F15D417791EB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1834C7-1B31-D5B3-D470-CFB898B7DB86" referredColumn="48281CF4-DD0F-921C-0764-FCD0E9F4A41C"/>
+</associations>
+</Column>
+<Column name="Usuarios_ID" id="DCE56B26-1FF9-A68B-87BC-0E3D3F0D04AF">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>674CDF67-F55F-A791-FBFF-96A37342BABE</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45E591B3-25DF-B9CA-9D4E-BE8C4C04E469" referredColumn="1E8649D2-6EAF-6C65-924A-EF17CE808337"/>
+</associations>
+</Column>
+<Column name="Total_de_Subscripcion" id="299B0CDE-407A-61BF-7999-CFD3183A860C">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>DB0E186A-D6E4-44F5-BA15-C4725B951215</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Inicio" id="F64B72CC-F120-7458-45FA-7E71B0D57CC3">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>DF26D869-5DA8-F61F-4277-5797EC98247B</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Termino" id="A753C426-6E6D-4CB7-AB91-20553125B59F">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>0C15D07C-3C58-9427-20F1-97E957153E8A</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_de_Alta" id="5F4DB560-9A33-F5A9-D1D1-931D5CF9223E">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>98279135-3674-52EA-6E95-6627995E1454</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estatus" id="9BE0F350-8F48-25FA-B0C3-735DB00B27F0">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estatus de la subscripcion]]></commentInRDBMS>
+<generatorID>E84C6AEF-F63C-3C4C-B9CB-6AB0F41D308F</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Promocion_ID" id="EC685F01-664B-1A50-6932-B6CD813A5E84">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>DDBC4520-2D24-2260-C78F-597367C15951</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B8BC93C-27A5-3D7D-A455-27A2A64061BD" referredColumn="835899CC-BA8A-FAA8-945B-562C993F1785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A992630-51F2-23EB-9638-EB94D93F4ACF" name="Subscripcion_por_Usuario_PK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>13CB7B2A-1682-7FD8-446C-D095F10192FB</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC685F01-664B-1A50-6932-B6CD813A5E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB22F18A-F8F4-D3F7-0F12-56F84ED055BB" name="Subscripcion_por_Usuario_Subscripciones_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>865F93F1-56C9-406C-F75C-D2D79806C242</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E796351F-A1E2-6E57-BE44-EBD33E72B761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953A63EC-F74E-ECDD-B628-EE67EA563750" name="Subscripcion_por_Usuario_Usuarios_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>FF283558-7BE0-E083-0D5F-EAF8918930FD</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE56B26-1FF9-A68B-87BC-0E3D3F0D04AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93218B7-3112-988E-6713-A4EC7E635341" name="Subscripcion_por_Usuario_Promocion_FK">
+<createdBy>juanc</createdBy>
+<createdTime>2020-08-28 02:17:30 UTC</createdTime>
+<generatorID>864E861F-C760-B59C-59E0-482881C72BB8</generatorID>
+<ownerDesignName>ChallengeDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC685F01-664B-1A50-6932-B6CD813A5E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
